@@ -1,0 +1,40 @@
+@import '~@mdi/font/css/materialdesignicons.min.css'; // https://pictogrammers.com/library/mdi/
+@import '../../../../styles.scss';
+
+.item {
+  width: 55px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: transparent;
+  padding: 5px;
+  margin-right: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: .4;
+  transition: width 0.5s ease, background-color 1s ease, opacity 0.3s ease;
+  &:hover {
+    background-color: $on-background-10-color;
+    opacity: 1;
+    width: 410px;
+    justify-content: center;
+  }
+}
+
+.item a {
+  text-decoration: none;
+  color: $on-background-color;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.item .mdi-content-copy {
+  color: $on-background-color;
+  font-size: 24px;
+}
+
+.item .contact-icon {
+  color: $on-background-color;
+  font-size: 50px;
+}

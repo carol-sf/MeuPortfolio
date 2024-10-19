@@ -8,6 +8,7 @@ import { ButtonComponent } from './components/default/button/button.component';
 import { MenuComponent } from './components/default/menu/menu.component';
 import { SkillsSectionComponent } from './components/sections/skills-section/skills-section.component';
 import { ContactSectionComponent } from './components/sections/contact-section/contact-section.component';
+import { ContactItemComponent } from './components/default/contact-item/contact-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactSectionComponent } from './components/sections/contact-section/c
     ButtonComponent,
     MenuComponent,
     SkillsSectionComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    ContactItemComponent
   ],
   imports: [
     BrowserModule,

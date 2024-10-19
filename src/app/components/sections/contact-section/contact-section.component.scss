@@ -11,9 +11,8 @@ p {
   margin: 40px 0;
 }
 
-.container img {
-  height: 50;
-  margin-left: 80px;
+.container {
+  display: flex;
 }
 
 .footer {
