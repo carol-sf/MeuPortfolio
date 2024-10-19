@@ -1,0 +1,29 @@
+@import '../../../../styles.scss';
+
+section {
+  justify-content: center;
+  position: relative;
+}
+
+p {
+  width: 55%;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.container img {
+  height: 50;
+  margin-left: 80px;
+}
+
+.footer {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: $primary-color;
+  }
+}

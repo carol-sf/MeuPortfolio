@@ -7,6 +7,7 @@ import { MainSectionComponent } from './components/sections/main-section/main-se
 import { ButtonComponent } from './components/default/button/button.component';
 import { MenuComponent } from './components/default/menu/menu.component';
 import { SkillsSectionComponent } from './components/sections/skills-section/skills-section.component';
+import { ContactSectionComponent } from './components/sections/contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SkillsSectionComponent } from './components/sections/skills-section/ski
     MainSectionComponent,
     ButtonComponent,
     MenuComponent,
-    SkillsSectionComponent
+    SkillsSectionComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule,

@@ -12,7 +12,7 @@ body {
 }
 
 .text-style {
-  color: $on-background-70-color;
+  color: $on-background-40-color;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -49,6 +49,9 @@ span, a {
 
 section {
   padding: 50px 100px;
-  height: calc(97vh - 100px - 100px);
+  height: calc(97vh - 100px);
   width: calc(98vw - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
