@@ -1,0 +1,41 @@
+@import '../../../../styles.scss';
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: $on-background-40-color;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.6s ease;
+  &:hover {
+    background-color: $secondary-color;
+    transform: translate(-5px, -5px);
+    p {
+      opacity: 1;
+    }
+  }
+}
+
+.item img {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.item p {
+  margin: 0;
+  opacity: 0;
+}
