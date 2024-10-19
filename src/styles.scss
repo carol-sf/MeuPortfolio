@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;0,900;1,200;1,400;1,500;1,700;1,900&display=swap');
+
 $background-color: #191A2C;
 $primary-color: #2AEFED;
 $secondary-color: #1B2F40;
@@ -9,10 +11,22 @@ body {
   background-color: $background-color;
 }
 
-h1, h3, h4 {
+h1, h2, h3, h4 {
   color: $on-background-color;
+  font-family: 'Poppins', sans-serif;
 }
 
-h2, p, span, a {
+p, span, a {
   color: $on-background-70-color;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+section {
+  padding: 50px 100px;
+  height: calc(97vh - 100px);
+  width: calc(98vw - 200px);
 }

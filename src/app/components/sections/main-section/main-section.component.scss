@@ -1,0 +1,31 @@
+@import '../../../../styles.scss';
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.description {
+  width: 50%;
+  margin: 20px 0 40px 0;
+}
+
+h1, h2 {
+  font-size: 60px;
+  margin: 0;
+}
+
+h2, p {
+  color: $on-background-40-color;
+}
+
+.no-margin {
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+@import '../../../../styles.scss';
+
+button {
+  background-color: transparent;
+  border-color: $primary-color;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: $primary-color;
+  cursor: pointer;
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
