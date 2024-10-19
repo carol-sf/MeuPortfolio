@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+$background-color: #191A2C;
+$primary-color: #2AEFED;
+$secondary-color: #1B2F40;
+$on-background-color: #FFFFFF;
+$on-background-40-color: #757680;
+$on-background-70-color: #BABAC0;
+
+body {
+  background-color: $background-color;
+}
+
+h1, h3, h4 {
+  color: $on-background-color;
+}
+
+h2, p, span, a {
+  color: $on-background-70-color;
+}
