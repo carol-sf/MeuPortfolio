@@ -10,9 +10,7 @@ import { MenuComponent } from './components/default/menu/menu.component';
 import { SkillsSectionComponent } from './components/sections/skills-section/skills-section.component';
 import { ContactSectionComponent } from './components/sections/contact-section/contact-section.component';
 import { ContactItemComponent } from './components/default/contact-item/contact-item.component';
-import { ProjectWebPoliceComponent } from './components/sections/project-web-police/project-web-police.component';
 import { BadgeComponent } from './components/default/badge/badge.component';
-import { ProjectBizuAppComponent } from './components/sections/project-bizu-app/project-bizu-app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectSectionComponent } from './components/sections/project-section/project-section.component';
 
@@ -25,9 +23,7 @@ import { ProjectSectionComponent } from './components/sections/project-section/p
     SkillsSectionComponent,
     ContactSectionComponent,
     ContactItemComponent,
-    ProjectWebPoliceComponent,
     BadgeComponent,
-    ProjectBizuAppComponent,
     ProjectSectionComponent,
   ],
   imports: [
