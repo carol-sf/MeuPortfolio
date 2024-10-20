@@ -14,6 +14,7 @@ export class ProjectsData {
     images: [],
     appleUrl: '',
     googleUrl: '',
+    lineWidth: 20,
   };
 
   static appBizu: Project = {
@@ -29,6 +30,7 @@ export class ProjectsData {
     images: [],
     appleUrl: 'https://apps.apple.com/br/app/bizucash/id6497949682',
     googleUrl: 'https://play.google.com/store/apps/details?id=com.bizucash.app_cliente',
+    lineWidth: 60,
   };
 
   static pdvBizu: Project = {
@@ -44,6 +46,7 @@ export class ProjectsData {
     images: [],
     appleUrl: 'https://apps.apple.com/br/app/pdv-bizucash/id6498924403',
     googleUrl: 'https://play.google.com/store/apps/details?id=com.bizucash.app_frentista',
+    lineWidth: 30,
   };
 
   static webBizu: Project = {
@@ -58,5 +61,6 @@ export class ProjectsData {
     images: [],
     appleUrl: '',
     googleUrl: '',
+    lineWidth: 30,
   };
 }

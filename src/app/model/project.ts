@@ -5,4 +5,5 @@ interface Project {
   images: string[];
   appleUrl: string;
   googleUrl: string;
+  lineWidth: number;
 }

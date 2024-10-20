@@ -14,6 +14,7 @@ import { ProjectWebPoliceComponent } from './components/sections/project-web-pol
 import { BadgeComponent } from './components/default/badge/badge.component';
 import { ProjectBizuAppComponent } from './components/sections/project-bizu-app/project-bizu-app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProjectSectionComponent } from './components/sections/project-section/project-section.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectWebPoliceComponent,
     BadgeComponent,
     ProjectBizuAppComponent,
+    ProjectSectionComponent,
   ],
   imports: [
     BrowserModule,
