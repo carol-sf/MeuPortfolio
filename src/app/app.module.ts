@@ -11,6 +11,7 @@ import { ContactSectionComponent } from './components/sections/contact-section/c
 import { ContactItemComponent } from './components/default/contact-item/contact-item.component';
 import { ProjectWebPoliceComponent } from './components/sections/project-web-police/project-web-police.component';
 import { BadgeComponent } from './components/default/badge/badge.component';
+import { ProjectBizuAppComponent } from './components/sections/project-bizu-app/project-bizu-app.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BadgeComponent } from './components/default/badge/badge.component';
     ContactSectionComponent,
     ContactItemComponent,
     ProjectWebPoliceComponent,
-    BadgeComponent
+    BadgeComponent,
+    ProjectBizuAppComponent,
   ],
   imports: [
     BrowserModule,

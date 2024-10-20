@@ -1,0 +1,59 @@
+@import '../../../../styles.scss';
+
+.container {
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.content {
+  max-width: 50%;
+  margin-right: 40px;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image {
+  min-width: 300px;
+  min-height: 600px;
+  background-color: $secondary-color;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title .divider {
+  height: 1px;
+  width: 60%;
+  background-color: $on-background-40-color;
+}
+
+.description p {
+  text-align: justify;
+}
+
+.tecnology-container {
+  display: flex;
+}
+
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-button {
+  width: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.6s ease;
+  &:hover {
+    transform: translate(-3px, -3px);
+  }
+}

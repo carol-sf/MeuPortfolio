@@ -1,0 +1,24 @@
+<section class="container">
+  <div class="content">
+    <div class="title">
+      <h4>{{ project.title }}</h4>
+      <div class="divider"></div>
+    </div>
+    <div *ngFor="let description of project.description" class="description">
+      <p>{{ description }}</p>
+    </div>
+    <div class="info-container">
+      <div class="tecnology-container">
+        <img src="../../../../assets/svg/icon-play-store.svg" alt="Link para a play store" class="icon-button" matTooltip="Ver na play store" matTooltipPosition="above">
+        <img src="../../../../assets/svg/icon-app-store.svg" alt="Link para a app store" class="icon-button" matTooltip="Ver na app store" matTooltipPosition="above">
+      </div>
+      <div class="tecnology-container">
+        <app-badge *ngFor="let tecnology of project.tecnologies">{{ tecnology }}</app-badge>
+      </div>
+    </div>
+  </div>
+  <div class="image-container">
+    <div class="image"></div>
+    <div class="image"></div>
+  </div>
+</section>
