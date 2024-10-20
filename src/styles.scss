@@ -31,10 +31,17 @@ h2 {
   margin: 0;
 }
 
-h3, h4 {
+h3 {
   @extend .text-style;
   color: $on-background-color;
   font-size: 32px;
+  margin: 0;
+}
+
+h4 {
+  @extend .text-style;
+  color: $on-background-color;
+  font-size: 28px;
   margin: 0;
 }
 

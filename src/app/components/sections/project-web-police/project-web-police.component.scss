@@ -1,0 +1,33 @@
+@import '../../../../styles.scss';
+
+.container {
+  display: flex;
+  margin-top: 40px;
+}
+
+.image {
+  min-width: 50%;
+  background-color: $secondary-color;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title .divider {
+  height: 1px;
+  width: 25%;
+  background-color: $on-background-40-color;
+}
+
+.description p {
+  text-align: justify;
+}
+
+.tecnology-container {
+  display: flex;
+}
