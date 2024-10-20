@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { ProjectsData } from 'src/app/data/projects';
 
 @Component({
@@ -8,4 +9,8 @@ import { ProjectsData } from 'src/app/data/projects';
 })
 export class ProjectBizuAppComponent {
   project: Project = ProjectsData.appBizu;
+
+  navigate(url: string) {
+    window.open(url, '_blank');
+  }
 }

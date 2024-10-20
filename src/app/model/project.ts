@@ -1,8 +1,8 @@
 interface Project {
-  title: String;
-  description: String[];
-  tecnologies: String[];
-  images: String[];
-  appleUrl: String;
-  googleUrl: String;
+  title: string;
+  description: string[];
+  tecnologies: string[];
+  images: string[];
+  appleUrl: string;
+  googleUrl: string;
 }

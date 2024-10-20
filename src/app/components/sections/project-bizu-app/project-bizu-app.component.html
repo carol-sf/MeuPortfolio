@@ -9,11 +9,27 @@
     </div>
     <div class="info-container">
       <div class="tecnology-container">
-        <img src="../../../../assets/svg/icon-play-store.svg" alt="Link para a play store" class="icon-button" matTooltip="Ver na play store" matTooltipPosition="above">
-        <img src="../../../../assets/svg/icon-app-store.svg" alt="Link para a app store" class="icon-button" matTooltip="Ver na app store" matTooltipPosition="above">
+        <img
+          src="../../../../assets/svg/icon-play-store.svg"
+          alt="Link para a play store"
+          class="icon-button"
+          matTooltip="Ver na play store"
+          matTooltipPosition="above"
+          (click)="navigate(project.googleUrl)"
+        />
+        <img
+          src="../../../../assets/svg/icon-app-store.svg"
+          alt="Link para a app store"
+          class="icon-button"
+          matTooltip="Ver na app store"
+          matTooltipPosition="above"
+          (click)="navigate(project.appleUrl)"
+        />
       </div>
       <div class="tecnology-container">
-        <app-badge *ngFor="let tecnology of project.tecnologies">{{ tecnology }}</app-badge>
+        <app-badge *ngFor="let tecnology of project.tecnologies">{{
+          tecnology
+        }}</app-badge>
       </div>
     </div>
   </div>

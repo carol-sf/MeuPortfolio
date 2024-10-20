@@ -1,3 +1,4 @@
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -12,6 +13,7 @@ import { ContactItemComponent } from './components/default/contact-item/contact-
 import { ProjectWebPoliceComponent } from './components/sections/project-web-police/project-web-police.component';
 import { BadgeComponent } from './components/default/badge/badge.component';
 import { ProjectBizuAppComponent } from './components/sections/project-bizu-app/project-bizu-app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ProjectBizuAppComponent } from './components/sections/project-bizu-app/
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatTooltipModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
