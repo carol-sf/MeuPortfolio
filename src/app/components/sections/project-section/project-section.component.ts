@@ -10,6 +10,8 @@ export class ProjectSectionComponent {
   @Input() project: Project = ProjectsData.appBizu;
   @Input() contentFirst: boolean = false;
 
+  ProjectsData = ProjectsData;
+
   navigate(url: string) {
     window.open(url, '_blank');
   }

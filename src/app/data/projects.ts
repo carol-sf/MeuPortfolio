@@ -46,7 +46,7 @@ export class ProjectsData {
     images: [],
     appleUrl: 'https://apps.apple.com/br/app/pdv-bizucash/id6498924403',
     googleUrl: 'https://play.google.com/store/apps/details?id=com.bizucash.app_frentista',
-    lineWidth: 30,
+    lineWidth: 60,
   };
 
   static webBizu: Project = {
@@ -61,6 +61,6 @@ export class ProjectsData {
     images: [],
     appleUrl: '',
     googleUrl: '',
-    lineWidth: 30,
+    lineWidth: 60,
   };
 }
