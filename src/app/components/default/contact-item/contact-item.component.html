@@ -1,5 +1,7 @@
-<div class="item" (click)="copyText()">
+<div class="item" (click)="handleClick()">
   <span class="mdi {{contact.iconClass}} contact-icon"></span>
   <a href={{contact.getLink}}>{{ contact.info }}</a>
-  <i class="mdi mdi-content-copy"></i>
+
+  <i *ngIf="contact.getLink(contactType) == ''" class="mdi mdi-content-copy"></i>
+  <i *ngIf="contact.getLink(contactType) != ''"class="mdi mdi-link-variant"></i>
 </div>

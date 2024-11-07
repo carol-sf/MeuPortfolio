@@ -17,6 +17,15 @@ export class ContactItemComponent {
     this.contact = new Contact(this.contactType);
   }
 
+  handleClick() {
+    const link = this.contact.getLink(this.contactType).toString();
+    if(link == '') {
+      this.copyText();
+    } else {
+      window.open(link, '_blank');
+    }
+  }
+
   copyText() {
     navigator.clipboard.writeText(this.contact.info.toString()).then(() => {
       console.log('Texto copiado para a área de transferência!');
