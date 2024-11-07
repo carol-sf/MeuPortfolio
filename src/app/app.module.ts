@@ -1,3 +1,4 @@
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -33,6 +34,7 @@ import { CarouselComponent } from './components/default/carousel/carousel.compon
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTooltipModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
