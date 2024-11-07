@@ -3,9 +3,45 @@
   <app-main-section></app-main-section>
   <app-skills-section></app-skills-section>
   <h3 class="section-title">Meus Projetos</h3>
-  <app-project-section [project]="ProjectsData.policeWeb"></app-project-section>
-  <app-project-section [project]="ProjectsData.appBizu" [contentFirst]="true"></app-project-section>
-  <app-project-section [project]="ProjectsData.pdvBizu"></app-project-section>
-  <app-project-section [project]="ProjectsData.webBizu" [contentFirst]="true"></app-project-section>
+  <app-project-section
+    [project]="ProjectsData.policeWeb"
+    [images]="[
+      '../assets/images/project-police-web/1-login.png',
+      '../assets/images/project-police-web/2-user-list.png',
+      '../assets/images/project-police-web/3-user-inativation.png',
+      '../assets/images/project-police-web/4-perito-lista-evidencias-certo.png',
+      '../assets/images/project-police-web/5-evidence-list.png',
+      '../assets/images/project-police-web/6-evidence-register.png',
+      '../assets/images/project-police-web/7-open-evidence-seal.png',
+      '../assets/images/project-police-web/8-examine-evidence.png',
+      '../assets/images/project-police-web/9-move-evidence.png',
+      '../assets/images/project-police-web/10-receipt-evidences.png',
+      '../assets/images/project-police-web/11-acept-evidence.png',
+    ]"
+  ></app-project-section>
+  <app-project-section
+    [project]="ProjectsData.appBizu"
+    [contentFirst]="true"
+    [images]="[
+      '../assets/images/project-app-bizu/1.png',
+      '../assets/images/project-app-bizu/2.png',
+      '../assets/images/project-app-bizu/3.png'
+    ]"
+  ></app-project-section>
+  <app-project-section
+    [project]="ProjectsData.pdvBizu"
+    [images]="[
+      '../assets/images/project-pdv-bizu/PDV1.png',
+      '../assets/images/project-pdv-bizu/PDV2.png',
+      '../assets/images/project-pdv-bizu/PDV3.png',
+    ]"
+  ></app-project-section>
+  <app-project-section
+    [project]="ProjectsData.webBizu"
+    [contentFirst]="true"
+    [images]="[
+      '../assets/images/project-web-bizu/SiteBizu2.png'
+    ]"
+  ></app-project-section>
   <app-contact-section></app-contact-section>
 </router-outlet>

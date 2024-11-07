@@ -1,6 +1,6 @@
 <section class="main-container">
   <div class="image-container" style="margin-right: 40px;" [ngStyle]="contentFirst ? { 'display': 'none' } : { 'display': 'inline' }">
-    <img src="" alt="">
+     <app-carousel [images]="images"></app-carousel>
   </div>
   <div class="content">
     <div class="title">
@@ -39,6 +39,6 @@
     </div>
   </div>
   <div class="image-container" style="margin-left: 40px;" [ngStyle]="contentFirst ? { 'display': 'inline' } : { 'display': 'none' }">
-    <img src="" alt="">
+    <app-carousel [images]="images"></app-carousel>
   </div>
 </section>

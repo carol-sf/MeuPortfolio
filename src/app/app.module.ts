@@ -13,6 +13,7 @@ import { ContactItemComponent } from './components/default/contact-item/contact-
 import { BadgeComponent } from './components/default/badge/badge.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectSectionComponent } from './components/sections/project-section/project-section.component';
+import { CarouselComponent } from './components/default/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProjectSectionComponent } from './components/sections/project-section/p
     ContactItemComponent,
     BadgeComponent,
     ProjectSectionComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

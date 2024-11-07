@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  &:hover {
+    .button {
+      opacity: 1;
+    }
+  }
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image.active {
+  opacity: 1;
+}
+
+.button {
+  position: absolute;
+  top: 45%;
+  background-color: rgba(128, 128, 128, 0.438);
+  padding: 10px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  &:hover {
+    background-color: rgba(128, 128, 128, 0.76);
+  }
+}
+
+.button.before {
+  left: 10px;
+}
+
+.button.next {
+  right: 10px;
+}

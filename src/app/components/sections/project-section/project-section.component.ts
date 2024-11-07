@@ -9,6 +9,7 @@ import { ProjectsData } from 'src/app/data/projects';
 export class ProjectSectionComponent {
   @Input() project: Project = ProjectsData.appBizu;
   @Input() contentFirst: boolean = false;
+  @Input() images: string[] = [];
 
   ProjectsData = ProjectsData;
 
